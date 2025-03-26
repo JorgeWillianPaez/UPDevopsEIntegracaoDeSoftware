@@ -1,0 +1,11 @@
+FROM python:3.8-slim
+
+WORKDIR /flaskapp
+
+COPY / /flaskapp
+
+RUN pip install flask
+
+CMD ["python", "app.py"]
+
+EXPOSE 5000
