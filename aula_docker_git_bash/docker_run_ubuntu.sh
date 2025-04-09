@@ -1,0 +1,1 @@
+winpty docker run -it --name meu_ubuntu ubuntu /bin/bash
